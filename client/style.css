@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+  }
+  
+  body {
+    background-color: whitesmoke;
+  }
+  
+  .user-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .user-list li {
+    padding: 1.5rem;
+    border-radius: 1rem;
+    list-style: none;
+  }
+  
+  .user-list li {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  li:hover {
+    transform: scale(1.05);
+  }
+  
